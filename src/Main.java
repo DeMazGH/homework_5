@@ -38,5 +38,31 @@ public class Main {
                 System.out.print(", ");
             } else System.out.print("\n");
         }
+
+        System.out.println();
+
+//task3
+        int arrLength;
+
+        for (arrLength = firstArr.length; arrLength > 0; arrLength--) {
+            System.out.print(firstArr[arrLength - 1]);
+            if (arrLength > 1) {
+                System.out.print(", ");
+            } else System.out.print("\n");
+        }
+
+        for (arrLength = secondArr.length; arrLength > 0; arrLength--) {
+            System.out.print(secondArr[arrLength - 1]);
+            if (arrLength > 1) {
+                System.out.print(", ");
+            } else System.out.print("\n");
+        }
+
+        for (arrLength = thirdArr.length; arrLength > 0; arrLength--) {
+            System.out.print(thirdArr[arrLength - 1]);
+            if (arrLength > 1) {
+                System.out.print(", ");
+            } else System.out.print("\n");
+        }
     }
 }
