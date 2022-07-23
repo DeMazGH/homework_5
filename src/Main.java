@@ -64,5 +64,20 @@ public class Main {
                 System.out.print(", ");
             } else System.out.print("\n");
         }
+
+        System.out.println();
+
+//task4
+
+        for (int i = 0; i < firstArr.length; i++) {
+            if ((firstArr[i] % 2) == 1) {
+                firstArr[i] = firstArr[i] + 1;
+            }
+
+            System.out.print(firstArr[i]);
+            if (i < 2) {
+                System.out.print(", ");
+            } else System.out.print("\n");
+        }
     }
 }
