@@ -22,21 +22,21 @@ public class Main {
             System.out.print(firstArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("   ");
+            } else System.out.print("\n");
         }
 
         for (int i = 0; i < 3; i++) {
             System.out.print(secondArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("   ");
+            } else System.out.print("\n");
         }
 
         for (int i = 0; i < 3; i++) {
             System.out.print(thirdArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            }
+            } else System.out.print("\n");
         }
     }
 }
