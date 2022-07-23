@@ -20,21 +20,21 @@ public class Main {
 
         for (int i = 0; i < firstArr.length; i++) {
             System.out.print(firstArr[i]);
-            if (i < 2) {
+            if (i < firstArr.length - 1) {
                 System.out.print(", ");
             } else System.out.println();
         }
 
         for (int i = 0; i < secondArr.length; i++) {
             System.out.print(secondArr[i]);
-            if (i < 2) {
+            if (i < secondArr.length - 1) {
                 System.out.print(", ");
             } else System.out.println();
         }
 
         for (int i = 0; i < thirdArr.length; i++) {
             System.out.print(thirdArr[i]);
-            if (i < 2) {
+            if (i < thirdArr.length - 1) {
                 System.out.print(", ");
             } else System.out.println();
         }
