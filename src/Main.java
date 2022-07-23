@@ -18,25 +18,25 @@ public class Main {
 
 //task 2
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < firstArr.length; i++) {
             System.out.print(firstArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < secondArr.length; i++) {
             System.out.print(secondArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < thirdArr.length; i++) {
             System.out.print(thirdArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
         System.out.println();
@@ -48,21 +48,21 @@ public class Main {
             System.out.print(firstArr[arrLength - 1]);
             if (arrLength > 1) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
         for (arrLength = secondArr.length; arrLength > 0; arrLength--) {
             System.out.print(secondArr[arrLength - 1]);
             if (arrLength > 1) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
         for (arrLength = thirdArr.length; arrLength > 0; arrLength--) {
             System.out.print(thirdArr[arrLength - 1]);
             if (arrLength > 1) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
 
         System.out.println();
@@ -70,14 +70,14 @@ public class Main {
 //task4
 
         for (int i = 0; i < firstArr.length; i++) {
-            if ((firstArr[i] % 2) == 1) {
+            if ((firstArr[i] % 2) != 0) {
                 firstArr[i] = firstArr[i] + 1;
             }
 
             System.out.print(firstArr[i]);
             if (i < 2) {
                 System.out.print(", ");
-            } else System.out.print("\n");
+            } else System.out.println();
         }
     }
 }
